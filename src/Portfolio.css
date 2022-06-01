@@ -1,0 +1,55 @@
+.xyz .nav-link {
+    color: rgb(217, 221, 28);
+}
+
+.xyz .nav-link.active {
+    background-color: rgb(47, 41, 41);
+}
+
+.modalButton {
+    border: none;
+    padding: 0;
+}
+
+.modalHover {
+    color: white;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    font-weight: bold;
+    width: 300px;
+    height: 200px;
+    background-color: #27c113;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    animation: bgAnim 2s linear;
+}
+@keyframes bgAnim {
+    from{
+    background-color: #31492a;
+    }
+    to{
+        background-color: #27c112;
+    }
+}
+.modalImg{
+    width: 100%;
+}
+.modalImage{
+    width: 90%;
+}
+
+@media (max-width: 1440px){
+    .modalButton img {
+        border-radius: .5rem;
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 500px){
+    .modalButton img {
+        border-radius: .5rem;
+        width: 100%;
+    }
+}

@@ -1,0 +1,173 @@
+/* About Section */
+.aboutSection{
+    height: auto;
+    background-color: #111;
+}
+.infos{
+    font-weight: 450;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.skillSection{
+    height: auto;
+    color: white;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skill{
+    width: 120px;
+    height: 120px;
+    /* background-color: navy; */
+    position: relative;
+}
+.outer{
+    padding: 10px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: rgb(44, 36, 36);
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+}
+
+#number{
+    font-size: 1.6rem;
+}
+circle{
+    fill: none;
+    stroke: rgb(186, 186, 18);
+    stroke-width: 10px;
+    stroke-dasharray: 345;
+    /* stroke-dashoffset: 152; */
+}
+.skill svg{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 0px;
+    left: 0px;
+}
+
+/* EDUCATION AND EXPERIENCE SECTION */
+.resume-box{
+    margin-left: 0;
+    padding-left: 0;
+}
+.resume-box ul{
+    padding: 0;
+}
+.resume-box .icon{
+    width: 44px;
+    height: 44px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    line-height: 44px;
+    text-align: center;
+    z-index: 1;
+    background-color: #c2952d;
+    border-radius: 50%;
+    color: white;
+}
+.resume-box .icon i::before{
+    box-sizing: border-box;
+}
+.resume-box ul li{
+    position: relative;
+    padding: 0 40px 0 50px;
+    margin: 0 0 50px;
+}
+.resume-box ul li::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 22px;
+    bottom: 0;
+    border-left: 1px solid #333;
+}
+.resume-box .time{
+    padding: 1px 10px;
+    display: inline-block;
+    margin-bottom: 12px;
+    background-color: #312f2f;
+    border-radius: 20px;
+    font-weight: 600;
+    opacity: .9;
+}
+.open-sans-font{
+    font-family: "Open Sans", sans-serif;
+}
+@media (min-width: 990px){
+    /* About Section */
+    .aboutSection{
+        padding-top: 4.2rem;
+    }
+    .aboutHeading{
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    .aboutPic{
+        /* border-radius: 50%; */
+        width: 100%;
+        border-radius: 10%;
+        margin-top: 6vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* box-shadow: 0 10px 10px 10px rgba(235, 245, 246, 0.2), 0 8px 20px 0 rgba(255, 255, 255, 0.19);; */
+    }
+    .personalInfo{
+        margin-top: 12vh;
+        padding-left: 4rem;
+    }
+    .columnOne h5, .columnTwo h5{
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+        font-weight: normal;
+    }
+
+    /* EDUCATION */
+    .resume-box ul li{
+        position: relative;
+        padding: 0 40px 0 50px;
+        margin: 0 0 50px;
+    }
+}
+@media (max-width: 990px){
+    /* About Section */
+    .aboutHeading{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .aboutPic{
+        /* border-radius: 50%; */
+        display: block;
+        margin: auto;
+        width: 70%;
+        border: 2px solid rgb(84, 79, 79);
+        border-radius: 50%;
+        margin-top: 0;
+    }
+    .columnOne h5, .columnTwo h5{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        font-weight: normal;
+    }
+
+    /* EDUCATION */
+    .resume-box ul li{
+        position: relative;
+        padding: 0 5px 0 50px;
+        margin: 0 0 50px;
+    }
+}

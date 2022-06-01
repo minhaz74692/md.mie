@@ -1,0 +1,182 @@
+.body{
+    font-family: 'Merriweather', serif;
+    height: auto;
+    background-color: #111;
+}
+
+/* NAVBAR */
+.navbar{
+    z-index: 10;
+}
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.5rem;
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+}
+.introduction a button, .message button{
+    padding: 0 0 0 1rem;
+    border: 1px solid rgb(186,186,18);;
+    border-radius: 2.5rem;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 1s all ease-in-out;
+    z-index: 1;
+}
+.introduction a button:hover, .message button:hover{
+    border: 1px solid rgb(186,186,18);
+    background-color: rgb(186,186,18);
+
+}
+/* .introduction a button::before{
+    border: 1px solid rgb(186,186,18);
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position:absolute;
+    z-index: -1;
+    background-color: rgb(186, 186, 18);
+    content: "";
+    transform: translateX(100%);
+    transition: .3s ease-out all;
+} */
+.introduction a{
+    text-decoration: none;
+    padding-top: 0;
+}
+.introduction a button i, .message button i{
+    margin-left: 1rem;
+    padding: 1rem;
+    font-weight: bold;
+    border: 1px solid rgb(186,186,18);;
+    border-radius: 50%;
+    background-color: rgb(186, 186, 18);
+}
+.horizon{
+    color: white;
+    width: 70%;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+@media (min-width: 990px) {
+    .background{
+        height: 100vh;
+        background-color: #111;
+    }
+    .navbar{
+        padding-bottom: 0;
+        padding-top: 0;
+        position: fixed;
+        top: 0;
+        bottom: auto;
+        width: 100vw;
+    }
+    .nav-item{
+        padding-right: 3rem;
+    }
+    .nav-link{
+        font-size: 1.3rem;
+    }
+    .nav-link:hover{
+        font-size: 1.4rem;
+    }
+    .pNav{
+        display: inline;
+        font-weight: 550;
+    }
+    .profilePic{
+        /* border-radius: 50%; */
+        width: 100%;
+        border-radius: 10%;
+        margin-top: 12vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* box-shadow: 0 10px 10px 10px rgba(235, 245, 246, 0.2), 0 8px 20px 0 rgba(255, 255, 255, 0.19);; */
+    }
+    .introduction{
+        padding: 15% 5% 0% 5%;
+    }
+    .introduction h1{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .introduction p {
+        /* padding: 1rem 10%; */
+        padding: 0 ;
+    }
+}
+
+@media (max-width: 990px) {
+    .background{
+        height: auto;
+        background-color: #111;
+    }
+    .navbar{
+        padding-bottom: 0;
+        padding-top: 0;
+        position: fixed;
+        top: auto;
+        bottom: 0;
+        width: 100vw;
+
+    }
+    .navbar-brand{
+        color: white;
+        font-weight: bold;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 1rem;
+    }
+    .nav-item{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .nav-item .nav-link{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .spanNav{
+        display: none;
+    }
+    .pNav{
+        font-size: .5rem;
+        padding: 0;
+        margin: 0;
+    }
+    .profilePic{
+        /* border-radius: 50%; */
+        display: block;
+        margin: auto;
+        width: 70%;
+        border: 2px solid rgb(84, 79, 79);
+        border-radius: 50%;
+        margin-top: 10%;
+    }
+    .introduction{
+        padding: 5% 5% 10% 5%;
+    }
+    .introduction h1{
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    .introduction p {
+        /* padding: 1rem 10%; */
+        padding: 0 ;
+        text-align: justify;
+    }
+    .introduction a button{
+        margin-top: 2rem;
+        margin-bottom: 8rem;
+    }
+}
+/* Home-Page */
+
+
