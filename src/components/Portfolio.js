@@ -15,6 +15,10 @@ import Web1 from "../image/web1.png"
 import Web2 from "../image/web2.png"
 import Web3 from "../image/web3.png"
 import Web4 from "../image/web4.png"
+import Text1 from "../image/text1.png"
+import Text2 from "../image/text2.png"
+import Text3 from "../image/text3.png"
+import Text4 from "../image/text4.png"
 import PortfolioModal from './PortfolioModal';
 
 
@@ -48,11 +52,10 @@ const Portfolio = () => {
         <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
           <div className='row pb-5'>
             <div className='col-12 col-sm-6 col-md-6 col-lg-4'>
-              <PortfolioModal imgId="portWeb" imgHover="portWebHover" imageSrc1={Web1} imageSrc2={Web2} imageSrc3={Web3} imageSrc4={Web4} prTitle="My Portfolio Website" project="Web Devevlopement" software="HTML, CSS, React.JS" />
+              <PortfolioModal imgId="portfolioWeb" imgHover="portWebHover" imageSrc1={Web1} imageSrc2={Web2} imageSrc3={Web3} imageSrc4={Web4} prTitle="My Portfolio Website" project="Web Devevlopement" software="HTML, CSS, React.JS" />
             </div>
-            <div className='col-4 col-sm-12 col-md-6 col-lg-4'>
-            </div>
-            <div className='col-4 col-sm-12 col-md-6 col-lg-4'>
+            <div className='col-12 col-sm-6 col-md-6 col-lg-4'>
+              <PortfolioModal imgId="textAnalyzer" imgHover="TextHover" imageSrc1={Text1} imageSrc2={Text2} imageSrc3={Text3} imageSrc4={Text4} prTitle="TEXT ANALYZER" project="Web Devevlopement" software="HTML, CSS, React.JS" />
             </div>
           </div>
         </div>
