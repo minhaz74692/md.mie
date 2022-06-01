@@ -28,6 +28,8 @@ const Home = () => {
               </ul> */}
         </div>
       </div>
+
+      {/* MODAL PRACTICE */}
     </div>
   )
 }

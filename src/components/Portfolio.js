@@ -31,25 +31,22 @@ const Portfolio = () => {
         <h1 className='text-center frontFont'>MY <span className='text-warning'>PORTFOLIO</span></h1>
       </div>
 
-      {/* Works tab*/}
+      {/* Works tab */}
       <div className='workNav mt-0 mt-md-2 mt-lg-4'>
         <ul className="nav nav-pills mb-1 mb-lg-3" id="pills-tab" role="tablist" style={{ justifyContent: "center" }}>
           <li className="nav-item xyz p-0" role="presentation">
-            <button className="nav-link active fs-6 px-2 py-1" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">WEB DESIGN</button>
+            <button className="nav-link active fs-5 px-2 mx-0 mx-lg-2 py-1" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">WEB DESIGN</button>
           </li>
-          {/* <li className="nav-item xyz" role="presentation">
-            <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">WEB DESIGN</button>
-          </li> */}
           <li className="nav-item xyz p-0" role="presentation">
-            <button className="nav-link fs-6 px-2 py-1" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">AUTOCAD</button>
+            <button className="nav-link fs-5 px-2 py-1" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">AUTOCAD</button>
           </li>
         </ul>
       </div>
 
-      <div className="tab-content px-0 px-lg-5 pb-5" id="pills-tabContent">
+      <div className="tab-content px-0 px-lg-5" id="pills-tabContent">
         {/* WEB DESIGN */}
-        <div className="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-          <div className='row'>
+        <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div className='row pb-5'>
             <div className='col-12 col-sm-6 col-md-6 col-lg-4'>
               <PortfolioModal imgId="portWeb" imgHover="portWebHover" imageSrc1={Web1} imageSrc2={Web2} imageSrc3={Web3} imageSrc4={Web4} prTitle="My Portfolio Website" project="Web Devevlopement" software="HTML, CSS, React.JS" />
             </div>
@@ -62,7 +59,7 @@ const Portfolio = () => {
 
         {/* AUTOCAD DESIGN */}
         <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-          <div className='row'>
+          <div className='row pb-5'>
             <div className='col-12 col-sm-6 col-md-6 col-lg-4'>
               <PortfolioModal imgId="lathe" imgHover="latheHover" imageSrc1={Lathe1} imageSrc2={Lathe2} imageSrc3={Lathe3} imageSrc4={Lathe4} prTitle="ENGINE LATHE" project="3D Modeling" software="AutoCad" />
             </div>
@@ -74,11 +71,6 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-
-
-
-        {/* MODAL */}
-
       </div>
     </div>
   )
