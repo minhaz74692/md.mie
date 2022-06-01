@@ -46,7 +46,7 @@ const Portfolio = () => {
         </ul>
       </div>
 
-      <div className="tab-content px-0 px-lg-5" id="pills-tabContent">
+      <div className="tab-content px-0 px-lg-5 pb-5" id="pills-tabContent">
         {/* WEB DESIGN */}
         <div className="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
           <div className='row'>
