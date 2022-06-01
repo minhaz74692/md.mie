@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/md.mie/static/css/main.fdfb872b.css",
+    "main.js": "/md.mie/static/js/main.33204113.js",
+    "static/js/787.fc07a5d2.chunk.js": "/md.mie/static/js/787.fc07a5d2.chunk.js",
+    "static/media/cycle2.png": "/md.mie/static/media/cycle2.644057bb6bd80dc603b7.png",
+    "static/media/web1.png": "/md.mie/static/media/web1.fcd749a509e79a354587.png",
+    "static/media/web2.png": "/md.mie/static/media/web2.9fe8c2d1fbce42a8e55e.png",
+    "static/media/fan1.png": "/md.mie/static/media/fan1.5c3c3d4026c2d0e3049c.png",
+    "static/media/web3.png": "/md.mie/static/media/web3.350c53aacee8741a1766.png",
+    "static/media/fan2.png": "/md.mie/static/media/fan2.2428150f5e809e541cbc.png",
+    "static/media/web4.png": "/md.mie/static/media/web4.ea40b58ffbda9a3fb341.png",
+    "static/media/cycle1.png": "/md.mie/static/media/cycle1.574f6a484c756f9b7cba.png",
+    "static/media/lathe1.png": "/md.mie/static/media/lathe1.ba4de6e5451a6ec5a659.png",
+    "static/media/fan3.png": "/md.mie/static/media/fan3.a307798062faddb103af.png",
+    "static/media/lathe3.png": "/md.mie/static/media/lathe3.2eb841fbee01118f27ef.png",
+    "static/media/lathe2.png": "/md.mie/static/media/lathe2.aea630072edcd049e351.png",
+    "static/media/fan4.png": "/md.mie/static/media/fan4.6398dab59d966bd27246.png",
+    "static/media/cycle4.png": "/md.mie/static/media/cycle4.9474c14dc7fc8a525959.png",
+    "static/media/lathe4.png": "/md.mie/static/media/lathe4.19ba3202a6e276dab062.png",
+    "static/media/cycle3.png": "/md.mie/static/media/cycle3.8d50044c683b85213402.png",
+    "static/media/minhaz1.jpeg": "/md.mie/static/media/minhaz1.278a6c6eec4ead4e8571.jpeg",
+    "index.html": "/md.mie/index.html",
+    "main.fdfb872b.css.map": "/md.mie/static/css/main.fdfb872b.css.map",
+    "main.33204113.js.map": "/md.mie/static/js/main.33204113.js.map",
+    "787.fc07a5d2.chunk.js.map": "/md.mie/static/js/787.fc07a5d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdfb872b.css",
+    "static/js/main.33204113.js"
+  ]
+}
