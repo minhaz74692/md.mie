@@ -59,32 +59,19 @@ const Portfolio = () => {
       <div className='workNav mt-0 mt-md-2 mt-lg-4'>
         <ul className="nav nav-pills mb-3 mb-lg-4" id="pills-tab" role="tablist" style={{ justifyContent: "center" }}>
           <li className="nav-item xyz p-0" role="presentation">
-            <button className="nav-link active fs-5 px-2 mx-0 mx-lg-2 py-1" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">WEB DESIGN</button>
+            <button className="nav-link active fs-5 px-2 mx-0 mx-lg-2 py-1" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">AUTOCAD</button>
           </li>
           <li className="nav-item xyz p-0" role="presentation">
-            <button className="nav-link fs-5 px-2 py-1" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">AUTOCAD</button>
+            <button className="nav-link fs-5 px-2 py-1" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">WEB DESIGN</button>
           </li>
         </ul>
       </div>
 
       <div className="tab-content px-0 px-lg-5" id="pills-tabContent">
-        {/* WEB DESIGN */}
-        <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-          <div className='row pb-5'>
-            <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
-              <PortfolioModal imgId="portfolioWeb" imgHover="portWebHover" imageSrc1={Web1} imageSrc2={Web2} imageSrc3={Web3} imageSrc4={Web4} prTitle="My Portfolio Website" project="Web Devevlopement" software="HTML, CSS, React.JS" />
-            </div>
-            <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
-              <PortfolioModal imgId="textAnalyzer" imgHover="textHover" imageSrc1={Text1} imageSrc2={Text2} imageSrc3={Text3} imageSrc4={Text4} prTitle="Text Analyzer" project="Web Devevlopement" software="HTML, CSS, React.JS" />
-            </div>
-            <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
-              <PortfolioModal imgId="news" imgHover="newsHover" imageSrc1={News1} imageSrc2={News2} imageSrc3={News3} imageSrc4={News4} prTitle="News Monkey" project="Web Devevlopement" software="HTML, CSS, React.JS" />
-            </div>
-          </div>
-        </div>
+        
 
         {/* AUTOCAD DESIGN */}
-        <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+        <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
           <div className='row pb-5'>
             <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
               <PortfolioModal imgId="lathe" imgHover="latheHover" imageSrc1={Lathe1} imageSrc2={Lathe2} imageSrc3={Lathe3} imageSrc4={Lathe4} prTitle="Engine Lathe" project="3D Modeling" software="AutoCad" />
@@ -106,6 +93,20 @@ const Portfolio = () => {
             </div>
             <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
               <PortfolioModal imgId="others" imgHover="othersHover" imageSrc1={Other5} imageSrc2={Other6} imageSrc3={Other7} imageSrc4={Other8} prTitle="Other Designs" project="3d Modeling" software="AutoCad" />
+            </div>
+          </div>
+        </div>
+        {/* WEB DESIGN */}
+        <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+          <div className='row pb-5'>
+            <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
+              <PortfolioModal imgId="portfolioWeb" imgHover="portWebHover" imageSrc1={Web1} imageSrc2={Web2} imageSrc3={Web3} imageSrc4={Web4} prTitle="My Portfolio Website" project="Web Devevlopement" software="HTML, CSS, React.JS" />
+            </div>
+            <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
+              <PortfolioModal imgId="textAnalyzer" imgHover="textHover" imageSrc1={Text1} imageSrc2={Text2} imageSrc3={Text3} imageSrc4={Text4} prTitle="Text Analyzer" project="Web Devevlopement" software="HTML, CSS, React.JS" />
+            </div>
+            <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
+              <PortfolioModal imgId="news" imgHover="newsHover" imageSrc1={News1} imageSrc2={News2} imageSrc3={News3} imageSrc4={News4} prTitle="News Monkey" project="Web Devevlopement" software="HTML, CSS, React.JS" />
             </div>
           </div>
         </div>

@@ -32,7 +32,7 @@ const Skills = (props) => {
                     <circle cx="60" cy="60" r="55" strokeLinecap="round" id='circle' style={{ strokeDashoffset: 345 - props.percentage*3.45 }} />
                 </svg>
             </div>
-            <p className='text-center mb-5 mt-2 skillTitle'>{props.title}</p>
+            <p className='text-center mb-5 mt-2 fs-4 skillTitle'>{props.title}</p>
         </div>
     )
 }

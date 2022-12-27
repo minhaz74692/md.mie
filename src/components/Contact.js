@@ -1,4 +1,11 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
+import Home from './Home';
+
+function submitMessage(){
+  alert('Thank you for explore. I will reach you soon.');
+  
+}
 
 const Contact = () => {
   return (
@@ -17,7 +24,7 @@ const Contact = () => {
             </div>
             <div className='details'>
               <p className='contactTitle'>ADDRESS POINT</p>
-              <p className='contactDetail'>19/2, Nikunja-2, Khilkhet, Dhaka, Bangladesh.</p>
+              <p className='contactDetail'>11/8, Nikunja-2, Khilkhet, Dhaka, Bangladesh.</p>
             </div>
           </div>
           <div className='contactType'>
@@ -26,7 +33,9 @@ const Contact = () => {
             </div>
             <div className='details'>
               <p className='contactTitle'>MAIL ME</p>
-              <p className='contactDetail'>minhaz74692@gmail.com</p>
+              <a target='_blank' href='https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRtswPCTSczqlRpcrRwDWqTmsrxxfrJtRWsHBzmGvntCRrTdjGlhwTfjLXrbjDJTRJBCvwQ'>
+                <p className='contactDetail'>minhaz.ipe.sust@gmail.com</p>
+              </a>
             </div>
           </div>
           <div className='contactType'>
@@ -59,7 +68,9 @@ const Contact = () => {
               <textarea className='msgMsg' type="text" placeholder='YOUR MESSAGE'></textarea>
             </form>
           </div>
-          <button type="submit" className="btn btn-dark m-auto ms-lg-5">SEND MESSAGE<i className="fa-solid fa-paper-plane"></i></button>
+          <Link to='/' className='' style={{'textDecoration': 'none'}}>
+            <button type="submit" className="btn btn-dark m-auto ms-lg-5" onClick={submitMessage}>SEND MESSAGE<i className="fa-solid fa-paper-plane"></i></button>
+          </Link>
         </div>
       </div>
     </div>
