@@ -8,6 +8,9 @@
 .navbar{
     z-index: 10;
 }
+.text-justify{
+    text-align: justify;
+}
 .navbar-brand{
     color: white;
     font-weight: bold;

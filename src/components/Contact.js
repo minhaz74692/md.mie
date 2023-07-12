@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom';
-import Home from './Home';
 
 function submitMessage(){
   alert('Thank you for explore. I will reach you soon.');
@@ -33,7 +32,7 @@ const Contact = () => {
             </div>
             <div className='details'>
               <p className='contactTitle'>MAIL ME</p>
-              <a target='_blank' href='https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRtswPCTSczqlRpcrRwDWqTmsrxxfrJtRWsHBzmGvntCRrTdjGlhwTfjLXrbjDJTRJBCvwQ'>
+              <a target='_blank' href='mailto:minhaz.ipe.sust@gmail.com'>
                 <p className='contactDetail'>minhaz.ipe.sust@gmail.com</p>
               </a>
             </div>

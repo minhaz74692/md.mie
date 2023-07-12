@@ -28,13 +28,13 @@ const About = () => {
                             <h5><span style={{ opacity: ".7" }}>Date of Birth:</span> <strong className="infos">17/09/1998</strong></h5>
                             <h5><span style={{ opacity: ".7" }}>Profession:</span> <strong className="infos">Student</strong></h5>
                             <h5><span style={{ opacity: ".7" }}>Phone:</span> <strong className="infos">+880-1907072158</strong></h5>
-                            <h5><span style={{ opacity: ".7" }}>Email:</span> <strong className="infos">minhaz.ipe.sust@gmail.com</strong></h5>
+                            <h5><span style={{ opacity: ".7" }}>Email:</span> <strong className="infos"><a target='_blank' href="mailto:minhaz.ipe.sust@gmail.com">minhaz.ipe.sust@gmail.com</a></strong></h5>
                         </div>
                         <div className='col-6 col-lg-6 px-4 ps-lg-5 columnTwo'>
                             <h5><span style={{ opacity: ".7" }}>Last Name:</span> <strong className="infos">Islam</strong></h5>
                             <h5><span style={{ opacity: ".7" }}>Blood-Group:</span> <strong className="infos">B+</strong></h5>
                             <h5><span style={{ opacity: ".7" }}>Nationality:</span> <strong className="infos">Bangladeshi</strong></h5>
-                            <h5><span style={{ opacity: ".7" }}>Address:</span> <strong className="infos">Chattogram</strong></h5>
+                            <h5><span style={{ opacity: ".7" }}>Birthplace:</span> <strong className="infos">Chattogram</strong></h5>
                         </div>
                     </div>
                 </div>
@@ -44,39 +44,47 @@ const About = () => {
                 <h2 className='mt-4 mt-lg-5 text-center mb-5 fs-3'>MY SKILLS</h2>
                 <div className='row px-3 px-lg-5'>
                     <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
-                        <Skills title={"MS OFFICE"} number={"60%"} percentage={60} />
+                        <Skills title={"FLUTTER"} number={"75%"} percentage={75} />
                     </div>
                     <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
-                        <Skills title={"AUTOCAD"} number={"60%"} percentage={55} />
+                        <Skills title={"Dart"} number={"70%"} percentage={70} />
                     </div>
                     <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
-                        <Skills title={"MATLAB"} number={"40%"} percentage={60} />
+                        <Skills title={"Firebase"} number={"65%"} percentage={65} />
                     </div>
                     <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
-                        <Skills title={"ARENA SIMULATION"} number={"40%"} percentage={60} />
+                        <Skills title={"Restful API"} number={"55%"} percentage={55} />
+                    </div>
+                    <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
+                        <Skills title={"GITHUB"} number={"60%"} percentage={60} />
+                    </div>
+                    <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
+                        <Skills title={"Puthon"} number={"50%"} percentage={50} />
+                    </div>
+                    <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
+                        <Skills title={"JavaScript"} number={"50%"} percentage={50} />
+                    </div>
+                    <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
+                        <Skills title={"React JS"} number={"45%"} percentage={45} />
+                    </div>
+                    <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
+                        <Skills title={"MONGODB"} number={"55%"} percentage={65} />
+                    </div>
+                    <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
+                        <Skills title={"TAILWIND CSS"} number={"60%"} percentage={70} />
+                    </div>
+                    <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
+                        <Skills title={"BOOTSTRAP5"} number={"60%"} percentage={75} />
+                    </div>
+                    <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
+                        <Skills title={"MS OFFICE"} number={"65%"} percentage={60} />
+                    </div>
+                    <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
+                        <Skills title={"AUTOCAD"} number={"55%"} percentage={55} />
                     </div>
                     
-                    <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
-                        <Skills title={"WEB DEVELOPEMENT"} number={"50%"} percentage={50} />
-                    </div>
-                    <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
-                        <Skills title={"FLUTTER"} number={"50%"} percentage={50} />
-                    </div>
-                    <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
-                        <Skills title={"GITHUB"} number={"55%"} percentage={55} />
-                    </div>
-                    <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
-                        <Skills title={"FIREBASE"} number={"55%"} percentage={55} />
-                    </div>
-                    <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
-                        <Skills title={"MONGODB"} number={"65%"} percentage={65} />
-                    </div>
-                    <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
-                        <Skills title={"TAILWIND CSS"} number={"70%"} percentage={70} />
-                    </div>
-                    <div className='col-6 col-md-4 col-sm-4 col-lg-3'>
-                        <Skills title={"BOOTSTRAP5"} number={"75%"} percentage={75} />
-                    </div>
+                    
+                    
                     
                 </div>
             </div><hr className='horizon mt-0'></hr>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Lathe1 from "../image/lathe1.png"
 import Lathe2 from "../image/lathe2.png"
 import Lathe3 from "../image/lathe3.png"
@@ -39,6 +39,18 @@ import News1 from "../image/news1.png"
 import News2 from "../image/news2.png"
 import News3 from "../image/news3.png"
 import News4 from "../image/news4.png"
+import Mmi1 from "../image/mmi1.png"
+import Mmi2 from "../image/mmi2.png"
+import Mmi3 from "../image/mmi3.png"
+import Mmi4 from "../image/mmi4.png"
+import Recipe1 from "../image/recipe1.png"
+import Recipe2 from "../image/recipe2.png"
+import Recipe3 from "../image/recipe3.png"
+import Recipe4 from "../image/recipe4.png"
+import Quickshop1 from "../image/quickshop1.png"
+import Quickshop2 from "../image/quickshop2.png"
+import Quickshop3 from "../image/quickshop3.png"
+import Quickshop4 from "../image/quickshop4.png"
 import PortfolioModal from './PortfolioModal';
 
 
@@ -59,10 +71,13 @@ const Portfolio = () => {
       <div className='workNav mt-0 mt-md-2 mt-lg-4'>
         <ul className="nav nav-pills mb-3 mb-lg-4" id="pills-tab" role="tablist" style={{ justifyContent: "center" }}>
           <li className="nav-item xyz p-0" role="presentation">
-            <button className="nav-link active fs-5 px-2 mx-0 mx-lg-2 py-1" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">AUTOCAD</button>
+            <button className="nav-link active fs-5 px-2 mx-0 mx-lg-2 py-1" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Flutter Apps</button>
           </li>
           <li className="nav-item xyz p-0" role="presentation">
-            <button className="nav-link fs-5 px-2 py-1" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">WEB DESIGN</button>
+            <button className="nav-link fs-5 px-2 py-1" id="pills-web-tab" data-bs-toggle="pill" data-bs-target="#pills-web" type="button" role="tab" aria-controls="pills-web" aria-selected="false">WEB</button>
+          </li>
+          <li className="nav-item xyz p-0" role="presentation">
+            <button className="nav-link fs-5 px-2 py-1" id="pills-autocad-tab" data-bs-toggle="pill" data-bs-target="#pills-autocad" type="button" role="tab" aria-controls="pills-autocad" aria-selected="false">AutoCad</button>
           </li>
         </ul>
       </div>
@@ -70,8 +85,38 @@ const Portfolio = () => {
       <div className="tab-content px-0 px-lg-5" id="pills-tabContent">
         
 
-        {/* AUTOCAD DESIGN */}
+        
+        {/* Flutter APPs */}
         <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div className='row pb-5'>
+            <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
+              <PortfolioModal imgId="quickshop" imgHover="quickshopHover" imageSrc1={Quickshop1} imageSrc2={Quickshop2} imageSrc3={Quickshop3} imageSrc4={Quickshop4} url={'https://github.com/minhaz74692/quickshop_ecommerce'} prTitle="QuickShop E-commerce Flutter App" project="Flutter Development" software="Flutter, Dart, Firebase, Github" />
+            </div>
+            <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
+              <PortfolioModal imgId="xxxx" imgHover="portWebxxHover" imageSrc1={Recipe1} imageSrc2={Recipe2} imageSrc3={Recipe3} imageSrc4={Recipe4} prTitle="Recipe App" project="Flutter Development" software="Flutter, Dart, Wordpress, Rest API, Firebase" />
+            </div>
+            
+          </div>
+        </div>
+        {/* WEB DESIGN */}
+        <div className="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab">
+          <div className='row pb-5'>
+            <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
+              <PortfolioModal imgId="mmi" imgHover="mmiHover" imageSrc1={Mmi1} imageSrc2={Mmi2} imageSrc3={Mmi3} imageSrc4={Mmi4} url={'https://minhaz74692.github.io/mmi.consultantsBD/'} prTitle="MMI ConsultantsBD Website" project="Web Devevlopment" software="React.JS, Tailwind Css" />
+            </div>
+            <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
+              <PortfolioModal imgId="portfolioWeb" imgHover="portWebHover" imageSrc1={Web1} imageSrc2={Web2} imageSrc3={Web3} imageSrc4={Web4} url={'https://minhaz74692.github.io/md.mie/'} prTitle="My Portfolio Website" project="Web Devevlopment" software="React.JS, Bootstrap" />
+            </div>
+            <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
+              <PortfolioModal imgId="textAnalyzer" imgHover="textHover" imageSrc1={Text1} imageSrc2={Text2} imageSrc3={Text3} imageSrc4={Text4} url={'https://minhaz74692.github.io/Text-Analyzer/'} prTitle="Text Analyzer" project="Web Devevlopment" software="HTML, CSS, React.JS" />
+            </div>
+            <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
+              <PortfolioModal imgId="news" imgHover="newsHover" imageSrc1={News1} imageSrc2={News2} imageSrc3={News3} imageSrc4={News4} url={'https://github.com/minhaz74692/news-basket.git'} prTitle="News Monkey" project="Web Devevlopment" software="React.JS, News API, Bootstrap" />
+            </div>
+          </div>
+        </div>
+        {/* AUTOCAD DESIGN */}
+        <div className="tab-pane fade show" id="pills-autocad" role="tabpanel" aria-labelledby="pills-autocad-tab">
           <div className='row pb-5'>
             <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
               <PortfolioModal imgId="lathe" imgHover="latheHover" imageSrc1={Lathe1} imageSrc2={Lathe2} imageSrc3={Lathe3} imageSrc4={Lathe4} prTitle="Engine Lathe" project="3D Modeling" software="AutoCad" />
@@ -96,20 +141,8 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        {/* WEB DESIGN */}
-        <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-          <div className='row pb-5'>
-            <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
-              <PortfolioModal imgId="portfolioWeb" imgHover="portWebHover" imageSrc1={Web1} imageSrc2={Web2} imageSrc3={Web3} imageSrc4={Web4} prTitle="My Portfolio Website" project="Web Devevlopement" software="HTML, CSS, React.JS" />
-            </div>
-            <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
-              <PortfolioModal imgId="textAnalyzer" imgHover="textHover" imageSrc1={Text1} imageSrc2={Text2} imageSrc3={Text3} imageSrc4={Text4} prTitle="Text Analyzer" project="Web Devevlopement" software="HTML, CSS, React.JS" />
-            </div>
-            <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-3'>
-              <PortfolioModal imgId="news" imgHover="newsHover" imageSrc1={News1} imageSrc2={News2} imageSrc3={News3} imageSrc4={News4} prTitle="News Monkey" project="Web Devevlopement" software="HTML, CSS, React.JS" />
-            </div>
-          </div>
-        </div>
+        
+        
       </div>
     </div>
   )

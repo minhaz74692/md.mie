@@ -19,7 +19,7 @@ const PortfolioModal = (props) => {
         <div className='container p-0 d-flex' style={{justifyContent: 'center'}}>
             {/* <div className="modal-dialog modal-dialog-centered"> */}
             <button type="button" onMouseEnter={changeImg} onMouseLeave={againImg} className="btn modalButton m-1" data-bs-toggle="modal" data-bs-target={`#example${props.imgId}`} >
-                <img src={props.imageSrc1} id={props.imgId} className="modalImage"></img>
+                <img src={props.imageSrc1} id={props.imgId} className="modalImage" alt='null'></img>
                 <div id={props.imgHover} className="modalHover">{props.prTitle}</div>
             </button>
             <div className="modal fade" id={`example${props.imgId}`} tabIndex="-1" aria-labelledby={`${props.imgId}Label`} aria-hidden="true">
@@ -33,6 +33,7 @@ const PortfolioModal = (props) => {
                             <div className='ps-2'>
                                 <p ><span className='text-warning fw-bold'>Project: </span>{props.project}</p>
                                 <p><span className='text-warning fw-bold'>Software: </span>{props.software}</p>
+                                <p><span className='text-warning fw-bold'>Github/Web Link: </span><a href={props.url} target='_blank'>Click to Visit</a></p>
                             </div>
                             <div id={`${props.imgId}Indicators`} className="carousel slide m-0 p-0" data-bs-ride="carousel">
                                 <div className="carousel-indicators bg-dark" style={{ opacity: .3, borderRadius: "1rem" }}>

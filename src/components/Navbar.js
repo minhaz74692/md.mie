@@ -30,11 +30,12 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <Link className={`nav-link ${location.pathname === "/"?"text-warning":"active"}`}  aria-current="page" to="/"><i className="fa-solid fa-house-chimney"></i> <p className='pNav'>Home</p></Link>
                                 </li>
-                                <li className="nav-item">
-                                    <Link className={`nav-link ${location.pathname === "/about"?"text-warning":"active"}`} to="/about"><i className="fa-solid fa-user"></i> <p className='pNav'>About</p></Link>
-                                </li>
+                                
                                 <li className="nav-item">
                                     <Link className={`nav-link ${location.pathname === "/portfolio"?"text-warning":"active"}`} to="/portfolio"><i className="fa-solid fa-briefcase"></i> <p className='pNav'>Portfolio</p></Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className={`nav-link ${location.pathname === "/about"?"text-warning":"active"}`} to="/about"><i className="fa-solid fa-user"></i> <p className='pNav'>About</p></Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className={`nav-link ${location.pathname === "/contact"?"text-warning":"active"}`} to="/contact"><i className="fa-solid fa-envelope-open"></i> <p className='pNav'>Contact</p></Link>
