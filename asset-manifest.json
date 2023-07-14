@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/md.mie/static/css/main.627c9551.css",
-    "main.js": "/md.mie/static/js/main.eb326b59.js",
+    "main.js": "/md.mie/static/js/main.cd2ed0f9.js",
     "static/js/787.fc07a5d2.chunk.js": "/md.mie/static/js/787.fc07a5d2.chunk.js",
     "static/media/mmi1.png": "/md.mie/static/media/mmi1.ca7688de6a81c5be81f3.png",
     "static/media/quickshop1.png": "/md.mie/static/media/quickshop1.c30e8c6728e3365bba64.png",
     "static/media/quickshop2.png": "/md.mie/static/media/quickshop2.4e8c8a969b98004ba854.png",
     "static/media/recipe3.png": "/md.mie/static/media/recipe3.1a9fc135a6ae2a33b75c.png",
     "static/media/quickshop3.png": "/md.mie/static/media/quickshop3.430699459bd3ee13b4d6.png",
+    "static/media/quickshop4.png": "/md.mie/static/media/quickshop4.a2e2ea8123ec95b92c5e.png",
     "static/media/recipe1.png": "/md.mie/static/media/recipe1.af497ca56dadd276cfa5.png",
     "static/media/recipe2.png": "/md.mie/static/media/recipe2.9b13f85885acfb8571ea.png",
     "static/media/mmi2.png": "/md.mie/static/media/mmi2.3da2a81df7af0296b7cc.png",
     "static/media/mmi4.png": "/md.mie/static/media/mmi4.1c8c17c895bc8fd0266a.png",
-    "static/media/quickshop4.png": "/md.mie/static/media/quickshop4.640cbc1b6b0f76a1318f.png",
     "static/media/news2.png": "/md.mie/static/media/news2.bb5b1a359cf3256425e2.png",
     "static/media/mmi3.png": "/md.mie/static/media/mmi3.8381da28c2f854a31919.png",
     "static/media/news1.png": "/md.mie/static/media/news1.653a84d34d48b937bc51.png",
@@ -58,11 +58,11 @@
     "static/media/other1.png": "/md.mie/static/media/other1.af0ccce138f7f0766360.png",
     "index.html": "/md.mie/index.html",
     "main.627c9551.css.map": "/md.mie/static/css/main.627c9551.css.map",
-    "main.eb326b59.js.map": "/md.mie/static/js/main.eb326b59.js.map",
+    "main.cd2ed0f9.js.map": "/md.mie/static/js/main.cd2ed0f9.js.map",
     "787.fc07a5d2.chunk.js.map": "/md.mie/static/js/787.fc07a5d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.627c9551.css",
-    "static/js/main.eb326b59.js"
+    "static/js/main.cd2ed0f9.js"
   ]
 }
